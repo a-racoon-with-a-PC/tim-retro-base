@@ -1,0 +1,15 @@
+.interet{
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: url(../assets/bg-interet.jpg);
+  background-size: cover;
+  .conteneur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

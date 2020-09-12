@@ -1,0 +1,17 @@
+.citation{
+  background-image: url(../assets/bg-citation.jpg);
+  background-size: 100%;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 404px;
+  .conteneur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  h3, p{color: var(--white-color);}
+  h3{margin: 0 0 18px 0;}
+  p{margin: 0;}
+}
+

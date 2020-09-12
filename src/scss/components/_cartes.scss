@@ -1,0 +1,26 @@
+.cartes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.carte{
+  width: 352px;
+  height: 367px;
+  margin: 40px auto 0;
+  background-color: var(--white-color);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  h4, p{
+    margin: auto;
+    text-align: center;
+  }
+  img{
+    min-height: 151px;
+    min-width: 151px;
+  }
+}
